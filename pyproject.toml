@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "demo-python-tor-network"
+version = "0.1.0"
+description = ""
+authors = ["natthasath <natthasath.sak@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{include = "demo_python_tor_network"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+stem = "^1.8.2"
+requests = "^2.31.0"
+pysocks = "^1.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
