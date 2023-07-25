@@ -9,6 +9,15 @@ The Tor Network is an anonymous, decentralized network that routes internet traf
 
 - [Tor Browser](https://www.torproject.org/download/)
 
+### 🚀 Setup
+
+- Check Tor Proxy port 9050 or 9150
+
+```
+netstat -ano | find "9050"
+netstat -ano | find "9150"
+```
+
 ### 🏆 Run
 
 ```shell
